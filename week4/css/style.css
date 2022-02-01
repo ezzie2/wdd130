@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #F0F7F4;
+    background-color: #36cee9;
     font-size: 16px ;
     
 }
@@ -17,17 +17,24 @@ h1, h4 {
     color: black;
 }
 header, footer {
-    background-color: #99E1D9;
+    background-color: #0039e2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
-
+li {
+    list-style: none;
+}
+footer {
+    display: flex; 
+    justify-content: flex-end;
+}
 
 a {
     color: black
 }
+
 
 /* Class Selectors *******************/
 .page{
