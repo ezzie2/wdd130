@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #36cee9;
+    background-color: #ABDCE0;
     font-size: 16px ;
     
 }
@@ -17,12 +17,13 @@ h1, h4 {
     color: black;
 }
 header, footer {
-    background-color: #0039e2;
+    background-color: #49A9FC;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
+
 li {
     list-style: none;
 }
@@ -40,4 +41,8 @@ a {
 .page{
     max-width: 960px;
     margin: 0 auto;
+}
+
+.box {
+
 }
