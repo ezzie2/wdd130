@@ -49,11 +49,8 @@ li a {
 }
 
 ul {
-    list-style: none; 
-    /* margin: 0px;
-    padding: 0px; */   
+    list-style: none;  
 }
-
 
 h1 {
     color: black;
@@ -61,6 +58,15 @@ h1 {
     text-align: center;
     margin: 1px;
 
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
 }
 
 main {
@@ -93,8 +99,6 @@ footer {
     margin: 10px;
     justify-content: flex-end;
     list-style: none;
-    display: flex;
-    
 }
 
 figure.img {
@@ -147,7 +151,7 @@ figcaption {
     border: 1px solid black;
     padding: 1rem;
     box-shadow: 0 0 30px blue;
-    opacity: .9px;
+    opacity: 0.9px;
     font-size: 20px;
     font-weight: bold;
     right: 85px;
