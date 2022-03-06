@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+body { 
+  font-family: "Pompiere", cursive, "Kurale", serif;
+  background-color: #EAEAEA ;
+  font-size: 20px;
+}
+
+header, footer {
+  display: grid;
+  align-items: center;
+  margin: 1rem;
+  grid-template-columns: 80px 1fr 1fr;
+  background-color: #893168; 
+  color: white;
+
+}
+
+nav {
+  display: flex;
+}
+
+
+li {
+  display: inline;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 1px 15px;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2 {
+  font-family: "Patrick Hand SC", cursive;
+  text-align: center;
+}
+
+
+/* Class selectors ********/
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.hero-image div {
+  position: relative;
+  margin: 10px auto;
+}
