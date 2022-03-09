@@ -211,6 +211,7 @@ footer {
 
 .button:hover {
       background-color: #49A9FC;
+      cursor: pointer;
   }
 
 .center, a {
