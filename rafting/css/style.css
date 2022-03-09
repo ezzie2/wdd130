@@ -193,7 +193,7 @@ footer {
 
 }
 
-.pointers, h2 {
+.pointers, h {
     color: black;
     padding: 1rem;
     cursor: pointer;
