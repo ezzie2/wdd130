@@ -52,6 +52,10 @@ h3, p {
     grid-row: 1;
 }
 
+h3 {
+    align-items: center;
+}
+
 main {
     /* display: grid; */
     position: relative;
@@ -64,17 +68,14 @@ main {
 header,footer {
     background-color: #49A9FC;
     /* display: flex; */
-    align-items: center;
     font-size: 16px;
-   
 }
 
 
 footer {
-    display: grid;
-    margin: 10px;
+    display: flex;
     justify-content: flex-end;
-    list-style: none;
+    margin: 1rem;
 }
 
 
@@ -160,7 +161,68 @@ footer {
     text-indent: 30px;
 }
 
-.flex-container {
-    display: inline;
-    padding: 1em;
+.locations {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding: 2rem;
 }
+
+.river h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.river a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}   
+
+.grid-testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1rem;
+}
+
+.grid-items {
+    padding: 10px;
+    border: 2px black;
+
+}
+
+.pointers, h2 {
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #d3eff1;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.center {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.button:hover {
+      background-color: #49A9FC;
+  }
+
+.center, a {
+    font-size: 25px;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    }
+
+.pages a:hover {
+      background-color: #49A9FC;
+      margin: 1rem;
+      padding: 1rem;
+    
+    }
