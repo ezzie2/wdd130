@@ -9,8 +9,8 @@ body {
     background-color: #d3eff1;
     line-height: normal;
     font-family: 'Mukta Malar', 'Esteban', 'Gilda Display';
-    font-size: 16px;
-    
+    font-size: 20px;
+    color: black;
     
 }
 
@@ -18,7 +18,7 @@ header {
     display: grid;
     align-items: center; 
     margin: 1rem;
-    grid-template-columns: 70px 1fr 1fr;
+    grid-template-columns: 110px 1fr 1fr;
 }
 
 li {
@@ -39,8 +39,9 @@ ul {
 }
 
 h1 {
-    color: black;
+    /* margin: 3rem; */
     text-align: center;
+    
 }
 
 h2 {
@@ -50,11 +51,13 @@ h2 {
 h3, p {
     grid-column: 1/3;
     grid-row: 1;
+    text-align: center;
 }
 
+/* Doesn't apply to home page
 h3 {
     align-items: center;
-}
+} */
 
 main {
     /* display: grid; */
@@ -67,15 +70,16 @@ main {
 
 header,footer {
     background-color: #49A9FC;
-    /* display: flex; */
-    font-size: 16px;
 }
 
 
 footer {
     display: flex;
     justify-content: flex-end;
-    margin: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    gap: 0.5em;
+    align-items: center;
 }
 
 
@@ -120,16 +124,13 @@ footer {
     right: 85px;
     margin: 10px;
     top: 50px;
+    border-radius: 10px;
 }
 
 .experience {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;  
-}
-
-.experience h3 {
-    text-align: center;
 }
 
 .experience p {
@@ -141,24 +142,13 @@ footer {
     padding: 1rem;
 }
 
-.moment picture {
-    grid-column: 1/3;
-    grid-row: 1;
-}
-
 .moment h3 {
     grid-column: 3;
-    padding: 1rem;
-    text-align: center;
 }
 
 .moment p {
     grid-column: 3;
     padding: 3rem;
-}
-
-.message {
-    text-indent: 30px;
 }
 
 .locations {
@@ -175,16 +165,20 @@ footer {
 
 .river a {
     text-decoration: none;
-    font-size: 30px;
     font-weight: bold;
     color: black;
 }   
 
+.river p {
+    text-align: left;
+}
+
 .grid-testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin: 1rem;
+    gap: 1rem;
+    
 }
 
 .grid-items {
@@ -193,28 +187,20 @@ footer {
 
 }
 
-.pointers, h {
-    color: black;
+.pages {
     padding: 1rem;
     cursor: pointer;
-    border: none;
-    background-color: #d3eff1;
     cursor: pointer;
     text-align: center;
   }
 
-.center {
-    text-align: center;
-    font-size: 16px;
-}
+/* .button, a:hover {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  } */
 
-
-.button:hover {
-      background-color: #49A9FC;
-      cursor: pointer;
-  }
-
-.center, a {
+.pointers a {
     font-size: 25px;
     padding: 1rem;
     text-decoration: none;
