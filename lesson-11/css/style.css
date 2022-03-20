@@ -1,0 +1,63 @@
+body, input, textarea {
+  font-size: 20px;
+  font-family: "Arya", sans-serif;
+  font-family: "Boogaloo", cursive;
+}
+
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 1rem;
+  border: 3px solid rgb(125, 218, 221);
+  border-radius: 10px;
+  background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+li {
+  padding: 4px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+}
+
+input,
+textarea {
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(125, 218, 221);
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.button {
+    padding-left: 190px;
+   
+}
