@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Card</title>
+    <meta name="description" content="This short media card displays information regarding a latter day temple. This temple
+    is located in Logan, UT. ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #8e9eab, #eef2f3);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Handlee', cursive, sans-serif;
+            letter-spacing: 0.03em;
+            font-size: 18px;
+        
+        }
+
+        .card {
+            width: 400px;
+            position: relative;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgb(79, 82, 104);
+            
+        }
+
+        img {
+            border-radius: 20px 20px 0 0;
+        }
+
+        div.card {
+            background-color: rgb(248, 248, 248);
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            padding: 20px;
+
+        }
+
+        footer p {
+            font-variant: small-caps;
+        }
+
+        a {
+            position: absolute;
+            right: 50px;
+            bottom: 30px;
+            text-decoration: none;
+            box-shadow: 0 0 15px rgb(97, 97, 148);
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            width: 150px;
+            justify-content: center;
+        
+        }
+
+        .heart {
+            position: absolute;
+            right: 25px;
+            top: 25px;    
+            transition: 2s; 
+        }
+
+        .heart:hover{
+            width: 60px;
+            transform: rotate(1turn)
+            
+        }
+
+        
+
+        a:hover{
+            background-color:gray;
+            color: white;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="images/logan_temple.jpg" alt="Logan UT Temple">
+        <div class="heart">
+            <img src="images/rsz_heart_icon.png" alt="Like heart">
+        </div>
+        <h1>Logan UT Temple</h1>
+        <p>
+            The Logan Temple was dedicated by John Taylor on May 1884. It occupies
+            an entire city block.
+            <br>
+            <br>
+            It was the first temple built in Utah. It was built
+            entirely by volunteer labor over a seven-year period from 1887 to 1884.
+        </p>
+        <footer>
+            <p>sq ft: 119,619</p>
+            <a href="http://churchofjesuschristtemples.org/logan-utah-temple/">details...</a>
+        </footer>
+    </div>
+ 
+</body>
+
+</html>
