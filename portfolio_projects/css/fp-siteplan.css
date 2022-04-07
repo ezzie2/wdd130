@@ -173,7 +173,7 @@ applies to all pages css------------ */
   border-bottom: 1px solid black ;
 }
 
-.b_title:hover {
+.b_title:hover, .text a:hover {
   color: black;  
 }
 
@@ -183,6 +183,7 @@ applies to all pages css------------ */
 
 .text a {
   text-decoration: none;
+
 }
 
 .form_info {
@@ -201,6 +202,7 @@ applies to all pages css------------ */
   text-align: center;
   border-bottom: 1px solid black;
 }
+
 .b_container a {
   display: inline-block;
   padding: 8px 16px;
