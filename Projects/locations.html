@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Page</title>
+    <meta name="description" content="This page provides the opportunity for visitors
+    to find a location near them by entering their zip code or city and state. This narrows down
+    local resources near the location given.">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/fp-siteplan.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <picture>
+                <img src="images/rsz_logo2.png" alt="mind logo">
+            </picture>
+            <h1>Fight Mental Illnesses</h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="">Community Outreach</a></li>
+                    <li><a href="home.html">Locations</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="items">
+                <section class="call">
+                    <picture>
+                        <img src="images/rsz_1call.png" alt="calling picture" style="width: 100%;">
+                    </picture>
+                    <h2>888-259-HELP</h2>
+                </section>
+                <section class="find_location">
+                    <h2>Find Services Near You</h2>
+                    <form>
+                        <!-- <label for="zipCode">Zip Code:</label><br> -->
+                        <input type="number" id="zipcode" placeholder="Enter Zip Code">
+                        <p>or</p>
+                        <!-- <label for="city, st">City, State:</label><br> -->
+                        <input type="text" id="address" placeholder="Enter City, State">
+                    </form>
+                    <!-- <br> -->
+                    <div class="container">
+                        <iframe title="Find you nearest center for help"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.127098125726!2d-73.96870248459292!3d40.78121987932449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral%20Park!5e0!3m2!1sen!2sus!4v1649288700453!5m2!1sen!2sus"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2022 | Fight Mental Illnesses</p>
+            <div class="flex-containers">
+                <a href="https://facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/twitter1.png" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="images/instagram1.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
